@@ -1,0 +1,24 @@
+ls
+echo $JAVA_HOME
+ls
+cd ~
+2dev
+exit
+ls
+cd Documents/Work/
+ls
+cd ..
+ls
+pwd
+cd /Users/smonaghan/Development/projects/tardis/js
+exit
+ls
+cd ..
+ls
+./build_release.sh profile=baseplus_withcharting.js action=re;ase
+./build_release.sh profile=baseplus_withcharting.js action=release
+./build.sh profile=baseplus_withcharting.js action=release
+ls profiles/
+exit
+g statis
+exit
