@@ -1,0 +1,15 @@
+[user]
+	name = Sean Monaghan
+	email = smonagan000@gmail.com
+
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	pup = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
+
+[push]
+	default = current
+[core]
+	excludesfile = /Users/smonaghan/.gitignore
